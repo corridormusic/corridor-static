@@ -1,0 +1,1 @@
+webpackJsonp([1],[function(o,r,i){window.Corridor=window.Corridor||{},i(2),i(1)},function(o,r,i){i(3)},function(o,r){Corridor=Corridor||{},Corridor.API_URL="https://api-test.corridormusic.com/",Corridor.OAUTH_CLIENT_BASE_64=btoa("corridor-web:f8fb1828-142a-44c6-81d9-8e81ec3beece")},function(o,r){}]);
