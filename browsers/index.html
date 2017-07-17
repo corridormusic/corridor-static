@@ -49,11 +49,11 @@
   var referrer = getQueryParam('utm_source');
   if (referrer) {
       var expiration = new Date(Date.now() + (7 * 24 * 60 * 60 * 1000));
-      document.cookie='cm_referrer=' + referrer + '; expires=' + expiration.toUTCString() + '; path=/;';
+      document.cookie='cm_referrer=' + referrer + '; expires=' + expiration.toUTCString() + '; path=/; domain=corridormusic.com';
   }
 </script>
 
-    <link href="/app.bundle.css?e1a2336590d798d80d1b" rel="stylesheet"></head>
+    <link href="/app.bundle.css?12e13af001465d4c9ecc" rel="stylesheet"></head>
     <body>
         <div class="static container-fluid text-center">
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -165,5 +165,5 @@
                 }
             });
         </script>
-    <script type="text/javascript" src="/vendor.bundle.js?e1a2336590d798d80d1b"></script><script type="text/javascript" src="/app.bundle.js?e1a2336590d798d80d1b"></script></body>
+    <script type="text/javascript" src="/vendor.bundle.js?12e13af001465d4c9ecc"></script><script type="text/javascript" src="/app.bundle.js?12e13af001465d4c9ecc"></script></body>
 </html>
